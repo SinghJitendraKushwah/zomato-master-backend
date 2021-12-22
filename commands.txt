@@ -23,3 +23,6 @@ git branch -M main
 git remote add origin https://github.com/SinghJitendraKushwah/zomato-master.git
 git push -u origin main
 day1
+till babel nodemon or add commands
+day2
+till database
