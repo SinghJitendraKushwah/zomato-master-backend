@@ -1,0 +1,25 @@
+cd server
+npm init
+npm i express
+.gitignore -> /node_modules -> package-lock.json
+index.js
+https://babeljs.io/setup#installation
+npm install --save-dev @babel/core
+.babelrc -> {"presets": ["@babel/preset-env"]}
+npm install @babel/preset-env @babel/cli @babel/node --save-dev
+package.json -> "scripts": {
+    "start": "babel-node index"
+  },
+npm i nodemon -D
+package.json -> "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index"
+  },
+npm i mongoose cors helmet
+echo "# zomato-master" >> README.md
+git init
+git add .
+git commit -m "babel nodemon"
+git branch -M main
+git remote add origin https://github.com/SinghJitendraKushwah/zomato-master.git
+git push -u origin main
+day1
