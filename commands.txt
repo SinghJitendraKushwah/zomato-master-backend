@@ -28,3 +28,8 @@ npm i dotenv
 .gitignore -> .env
 day2
 till database
+day3
+for password hassing
+npm i bcrypt
+for validation
+npm i joi
